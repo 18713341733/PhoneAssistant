@@ -1,0 +1,46 @@
+Applications Memory Usage (kB):
+Uptime: 387347387 Realtime: 586091548
+
+** MEMINFO in pid 14733 [com.alibaba.android.rimet] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    42132    42036        0        0    47736    44803     1184
+  Dalvik Heap    47345    47256        0        0    55416    39141    16275
+ Dalvik Other     2232     2232        0        0                           
+        Stack     1200     1200        0        0                           
+       Ashmem     7000     7000        0        0                           
+    Other dev    11614    11536       76        0                           
+     .so mmap    24508     2092    19620        0                           
+    .apk mmap      702        0       64        0                           
+    .ttf mmap      898        0      452        0                           
+    .dex mmap    40706        0    34392        0                           
+    code mmap     4380        0      820        0                           
+   image mmap     5446     2048     2048        0                           
+   Other mmap      283        4      184        0                           
+     Graphics    25920    25920        0        0                           
+      Unknown    12545    12544        0        0                           
+        TOTAL   226911   153868    57656        0   103152    83944    17459
+ 
+ Objects
+               Views:     1152         ViewRootImpl:        1
+         AppContexts:       10           Activities:        1
+              Assets:        6        AssetManagers:        6
+       Local Binders:       66        Proxy Binders:       44
+    Death Recipients:        4
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      423
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       76            185      289/90/25  /data/data/com.alibaba.android.rimet/databases/google_app_measurement.db
+         4       40            159        46/24/7  /data/data/com.alibaba.android.rimet/databases/nebula_app.db
+         4      120             90        20/37/7  /data/data/com.alibaba.android.rimet/databases/ut.db
+ 
+ Asset Allocations
+    zip:/data/app/com.alibaba.android.rimet-2/base.apk:/resources.arsc: 7950K
+    zip:/data/app/com.alibaba.android.rimet-2/base.apk:/assets/iconfont.ttf: 148K
+    zip:/data/app/com.alibaba.android.rimet-2/base.apk:/assets/iconfont.ttf: 148K
